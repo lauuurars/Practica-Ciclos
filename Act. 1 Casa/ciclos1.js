@@ -13,4 +13,4 @@ while (intento !== numeroSecreto) {
     }
 }
 
-console.log("¡Felicidades! Adivinaste el número " + numeroSecreto); //imprimimos resultado de operación
+alert("¡Felicidades! Adivinaste el número " + numeroSecreto); //imprimimos resultado de operación
