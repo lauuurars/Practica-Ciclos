@@ -2,8 +2,6 @@
 
 const frutas = ["fresa", "sandia", "pera", "mango", "piña"] //creamos array usando const ya que no se reemplazarán datos
 
-console.log("Lista de frutas:"); //imprimimos las frutas originales
-
 for (let i = 0; i < frutas.length; i++) { 
     console.log((i + 1) + ". " + frutas[i]); 
 }
