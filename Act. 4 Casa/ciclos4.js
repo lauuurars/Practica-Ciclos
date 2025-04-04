@@ -15,13 +15,13 @@ do {
     ))
 
     if (opcion === 1) {
-        console.log("Cantar es divertido!");
+        alert("Cantar es divertido!");
     } else if (opcion === 2) {
-        console.log("Bailar es genial!");
+        alert("Bailar es genial!");
     } else if (opcion !== 3){
-        console.log("Opción no válida, elige una opción válida.");
+        alert("Opción no válida, elige una opción válida.");
     }
 
 } while (opcion !== 3);
 
-console.log("¡Nos vemos luego!");
+alert("¡Nos vemos luego!");
