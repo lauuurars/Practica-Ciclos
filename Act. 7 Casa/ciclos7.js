@@ -1,8 +1,9 @@
 //Desarrollo Actividad 7
 
-const frutas = ["fresa", "sandia", "pera", "mango", "piña"] //creamos array usando const ya que no se reemplazarán datos
+let frutas = ["fresa", "sandia", "pera", "mango", "piña"] //creamos array 
 
 console.log("Lista de frutas: " + frutas); //imprimimos en consola el mensaje "Lista de frutas"   
+console.log("largo: ", frutas.length); //imprimimos en consola el largo del array frutas
 
 for (let i = 0; i < frutas.length; i++) { 
     console.log((i + 1) + ". " + frutas[i]); 
