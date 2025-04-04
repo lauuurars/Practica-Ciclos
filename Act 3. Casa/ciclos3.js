@@ -8,7 +8,7 @@ let i = 0; //recorre la frase letra por letra
 
 while (i < frase.length) {
     let letra = frase[i]; //se obtiene la letra en la posición actual
-    if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
+    if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") { //verificamos que las letras sean voacales
         contador++; //se suma 1 al contador si la letra es una vocal
     }
     i++; //se pasa a la siguiente letra
